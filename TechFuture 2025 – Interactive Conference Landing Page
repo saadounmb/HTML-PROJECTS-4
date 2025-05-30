@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TechFuture 2025 Conference</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      scroll-behavior: smooth;
+    }
+    header, nav, section, footer {
+      padding: 1em;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background: #222;
+      color: white;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td, th {
+      border: 1px solid #ddd;
+      padding: 0.5em;
+    }
+    figure {
+      margin: 1em 0;
+    }
+    img {
+      width: 150px;
+      height: auto;
+    }
+    form input, select, textarea {
+      display: block;
+      margin: 0.5em 0;
+    }
+    #backToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 0.7em 1em;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>TechFuture 2025</h1>
+  <p>The premier event for future-focused developers and creators.</p>
+</header>
+
+<nav>
+  <a href="#schedule">Schedule</a>
+  <a href="#speakers">Speakers</a>
+  <a href="#register">Register</a>
+</nav>
+
+<main>
+
+  <section id="schedule">
+    <h2>📅 Conference Schedule</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Session</th>
+          <th>Speaker</th>
+          <th>Room</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>09:00 - 10:00</td>
+          <td>Opening Keynote</td>
+          <td>Alex Rivera</td>
+          <td>Main Hall</td>
+        </tr>
+        <tr>
+          <td>10:30 - 11:30</td>
+          <td>AI Ethics</td>
+          <td>Dr. Sana Lee</td>
+          <td>Room A</td>
+        </tr>
+        <tr>
+          <td>12:00 - 13:00</td>
+          <td>Future of Web</td>
+          <td>Jamie Tran</td>
+          <td>Room B</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="speakers">
+    <h2>🎤 Meet the Speakers</h2>
+
+    <article>
+      <figure>
+        <img src="https://via.placeholder.com/150" alt="Alex Rivera photo">
+        <figcaption><strong>Alex Rivera</strong> – Tech visionary and entrepreneur with 20+ years of experience.</figcaption>
+      </figure>
+    </article>
+
+    <article>
+      <figure>
+        <img src="https://via.placeholder.com/150" alt="Dr. Sana Lee photo">
+        <figcaption><strong>Dr. Sana Lee</strong> – AI ethicist and professor at FutureTech University.</figcaption>
+      </figure>
+    </article>
+
+    <article>
+      <figure>
+        <img src="https://via.placeholder.com/150" alt="Jamie Tran photo">
+        <figcaption><strong>Jamie Tran</strong> – Frontend wizard and open-source contributor.</figcaption>
+      </figure>
+    </article>
+
+  </section>
+
+  <section id="register">
+    <h2>📝 Register Now</h2>
+
+    <form>
+      <label for="name">Name*</label>
+      <input type="text" id="name" name="name" required aria-required="true">
+
+      <label for="email">Email*</label>
+      <input type="email" id="email" name="email" required aria-required="true">
+
+      <label for="track">Choose a Track:</label>
+      <select id="track" name="track">
+        <option value="web">Web Development</option>
+        <option value="ai">AI & Machine Learning</option>
+        <option value="design">UI/UX Design</option>
+      </select>
+
+      <label>Dietary Restrictions:</label>
+      <label><input type="checkbox" name="diet" value="vegan"> Vegan</label>
+      <label><input type="checkbox" name="diet" value="gluten-free"> Gluten-Free</label>
+      <label><input type="checkbox" name="diet" value="none"> No Restrictions</label>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <h3>🎧 Welcome Message</h3>
+    <audio controls>
+      <source src="welcome.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <h3>🧾 FAQs</h3>
+    <details>
+      <summary>What is the refund policy?</summary>
+      <p>You can request a full refund up to 7 days before the event.</p>
+    </details>
+
+    <details>
+      <summary>Are meals included?</summary>
+      <p>Yes, lunch and coffee breaks are included with all passes.</p>
+    </details>
+
+    <h3>📊 Registration Progress</h3>
+    <label for="progress">Current Registration:</label>
+    <progress id="progress" value="65" max="100">65%</progress>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 TechFuture Conference. All rights reserved.</p>
+</footer>
+
+<!-- Back to Top Button -->
+<button id="backToTop" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">↑ Top</button>
+
+</body>
+</html>
