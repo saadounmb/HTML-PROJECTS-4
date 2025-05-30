@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BookReviewBox – Honest Reviews by Real Readers</title>
+</head>
+<body>
+
+  <header>
+    <h1>
+      📖 BookReviewBox
+    </h1>
+    <p>Your trusted source for thoughtful book reviews.</p>
+    <nav>
+      <a href="#latest">Latest Reviews</a> |
+      <a href="#genres">Genres</a> |
+      <a href="#featured">Book of the Month</a> |
+      <a href="#about">About</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="latest">
+      <h2>📝 Latest Reviews</h2>
+
+      <article>
+        <h3>The Midnight Library</h3>
+        <p><strong>Author:</strong> Matt Haig</p>
+        <figure>
+          <img src="https://via.placeholder.com/150x220?text=Midnight+Library" alt="Cover of The Midnight Library">
+          <figcaption>Cover of The Midnight Library</figcaption>
+        </figure>
+        <p>A moving and imaginative novel about second chances and the infinite possibilities of life.</p>
+        <p><strong>Rating:</strong> &#9733;&#9733;&#9733;&#9733;&#9734;</p>
+        <p><em>Reviewed by Sarah M.</em></p>
+      </article>
+
+      <article>
+        <h3>Project Hail Mary</h3>
+        <p><strong>Author:</strong> Andy Weir</p>
+        <figure>
+          <img src="https://via.placeholder.com/150x220?text=Hail+Mary" alt="Cover of Project Hail Mary">
+          <figcaption>Cover of Project Hail Mary</figcaption>
+        </figure>
+        <p>A gripping sci-fi adventure filled with clever science, humor, and heart.</p>
+        <p><strong>Rating:</strong> &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p><em>Reviewed by James T.</em></p>
+      </article>
+
+      <article>
+        <h3>The Seven Husbands of Evelyn Hugo</h3>
+        <p><strong>Author:</strong> Taylor Jenkins Reid</p>
+        <figure>
+          <img src="https://via.placeholder.com/150x220?text=Evelyn+Hugo" alt="Cover of Evelyn Hugo">
+          <figcaption>Cover of Evelyn Hugo</figcaption>
+        </figure>
+        <p>A fascinating fictional biography of a glamorous old Hollywood star with hidden truths.</p>
+        <p><strong>Rating:</strong> &#9733;&#9733;&#9733;&#9733;&#9734;</p>
+        <p><em>Reviewed by Naomi R.</em></p>
+      </article>
+
+      <article>
+        <h3>Atomic Habits</h3>
+        <p><strong>Author:</strong> James Clear</p>
+        <figure>
+          <img src="https://via.placeholder.com/150x220?text=Atomic+Habits" alt="Cover of Atomic Habits">
+          <figcaption>Cover of Atomic Habits</figcaption>
+        </figure>
+        <p>Insightful strategies for building good habits and breaking bad ones.</p>
+        <p><strong>Rating:</strong> &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p><em>Reviewed by Alex D.</em></p>
+      </article>
+    </section>
+
+    <section id="genres">
+      <h2>📚 Genres</h2>
+      <details>
+        <summary>Explore Genres</summary>
+        <ul>
+          <li>Fiction</li>
+          <li>Non-fiction</li>
+          <li>Science Fiction</li>
+          <li>Fantasy</li>
+          <li>Mystery</li>
+          <li>Romance</li>
+          <li>Self-Help</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="featured">
+      <h2>🌟 Book of the Month</h2>
+      <article>
+        <h3>Lessons in Chemistry</h3>
+        <p><strong>Author:</strong> Bonnie Garmus</p>
+        <figure>
+          <img src="https://via.placeholder.com/200x280?text=Lessons+in+Chemistry" alt="Lessons in Chemistry Cover">
+          <figcaption>Book of the Month Cover</figcaption>
+        </figure>
+        <blockquote>
+          “Some things are more scientific than they seem — including courage.”
+        </blockquote>
+
+        <dl>
+          <dt>Genre:</dt>
+          <dd>Historical Fiction</dd>
+          <dt>Pages:</dt>
+          <dd>400</dd>
+          <dt>Published:</dt>
+          <dd>2022</dd>
+        </dl>
+
+        <aside>
+          <h4>👩‍🔬 About the Author</h4>
+          <p>Bonnie Garmus is a debut novelist with a background in copywriting, science, and open water swimming. Her work explores strong, complex women with humor and depth.</p>
+        </aside>
+      </article>
+    </section>
+
+    <section id="about">
+      <h2>🔍 About BookReviewBox</h2>
+      <p>BookReviewBox is a reader-powered space to share, discover, and celebrate books across all genres. No algorithms. Just honest thoughts and favorite reads.</p>
+    </section>
+
+    <section id="contact">
+      <h2>📬 Contact Us</h2>
+      <p>Email: <a href="mailto:reviews@bookreviewbox.com">reviews@bookreviewbox.com</a></p>
+      <p>Follow us on social: @BookReviewBox</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BookReviewBox. Built with pure HTML & love for books 📚</p>
+  </footer>
+
+</body>
+</html>
